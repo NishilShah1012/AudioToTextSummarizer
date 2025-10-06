@@ -1,0 +1,6 @@
+streamlit
+speechrecognition
+transformers
+torch
+fpdf
+pydub
