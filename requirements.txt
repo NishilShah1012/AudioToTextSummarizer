@@ -1,9 +1,12 @@
 streamlit==1.28.0
 openai-whisper
-torch
-torchaudio
+# Use a modern, stable PyTorch version for Python 3.10
+torch>=2.0.2 
+torchaudio>=2.0.2
 transformers==4.42.0
 gTTS==2.3.2
 fpdf==1.7.2
+# pandas 2.1.1 is highly likely to work with Python 3.10
 pandas==2.1.1
 soundfile==0.12.1
+# Remove the setuptools pin as it's no longer the primary issue
