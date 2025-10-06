@@ -1,5 +1,5 @@
 streamlit==1.28.0
-openai-whisper==20230314
+whisper @ https://github.com/openai/whisper/archive/refs/tags/v20230314.zip
 torch>=2.0.0
 torchaudio>=2.0.2
 transformers==4.42.0
