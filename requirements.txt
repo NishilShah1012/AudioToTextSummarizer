@@ -1,6 +1,10 @@
-streamlit
-speechrecognition
-transformers
-torch
-fpdf
-pydub
+streamlit==1.28.0
+openai-whisper==20230314
+torch>=2.0.0
+torchaudio>=2.0.2
+transformers==4.42.0
+gTTS==2.3.2
+fpdf==1.7.2
+numpy==1.26.5
+pandas==2.1.1
+soundfile==0.12.1
